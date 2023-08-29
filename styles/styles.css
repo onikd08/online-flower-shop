@@ -9,7 +9,6 @@ figcaption {
   margin-top: 32px;
   color: #272727;
   text-align: center;
-  font-family: Lato;
   font-size: 24px;
   font-weight: 700;
   line-height: 35px; /* 145.833% */
@@ -48,7 +47,6 @@ figcaption {
 
 .header-title {
   color: #272727;
-  font-family: Lato;
   font-size: 80px;
   font-weight: 800;
   margin: 0;
@@ -57,7 +55,6 @@ figcaption {
 .header-description {
   margin: 32px 0px;
   color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
   font-size: 18px;
   font-weight: 400;
 }
@@ -71,7 +68,6 @@ figcaption {
 
 .section-title {
   color: #272727;
-  font-family: Lato;
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 24px;
@@ -79,7 +75,6 @@ figcaption {
 
 .section-description {
   color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
   font-size: 18px;
   font-weight: 400;
 }
@@ -154,4 +149,29 @@ figcaption {
   margin-right: 20px;
   border-radius: 8px;
   border: 0;
+}
+
+footer {
+  background: #272727;
+  text-align: center;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+footer small {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
 }
