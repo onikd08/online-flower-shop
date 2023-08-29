@@ -87,7 +87,6 @@ figcaption {
 .featured-flowers-images {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .featured-flowers-image-1 {
@@ -124,4 +123,35 @@ figcaption {
   background: rgba(229, 84, 115, 0.05);
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.instagram {
+  text-align: center;
+  margin-top: 128px;
+}
+
+.insta-images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+
+.latest-deals {
+  text-align: center;
+  padding-top: 122px;
+  padding-bottom: 122px;
+  background-image: url("../images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 128px;
+}
+
+.latest-deals input[type="email"] {
+  padding: 25px;
+  width: 50%;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: 0;
 }
