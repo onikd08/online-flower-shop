@@ -23,6 +23,10 @@ figcaption {
   padding: 20px 43px;
   color: white;
 }
+
+.text-primary {
+  color: #e55473;
+}
 /* header section styling */
 .header-container {
   display: flex;
@@ -108,4 +112,16 @@ figcaption {
   padding-top: 110px;
   padding-right: 80px;
   padding-left: 80px;
+}
+
+.hot-deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  text-align: center;
+  margin-top: 128px;
+  background: rgba(229, 84, 115, 0.05);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
