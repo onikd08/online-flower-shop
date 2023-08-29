@@ -151,6 +151,19 @@ figcaption {
   border: 0;
 }
 
+.contact {
+  text-align: center;
+  padding-bottom: 122px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact-form input,
+textarea {
+  width: 25%;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
 footer {
   background: #272727;
   text-align: center;
